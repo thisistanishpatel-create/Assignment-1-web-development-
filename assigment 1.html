@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Menu Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f2f0;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            color: #c28f34;
+            font-weight: bold;
+        }
+
+        .desc {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="title">Coffee Menu</h2>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <span>Cappuccino</span><span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span>Americano</span><span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span>Espresso</span><span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span>Macchiato</span><span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span>Mocha</span><span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span>Coffee Latte</span><span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span>Piccolo Latte</span><span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span>Ristretto</span><span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span>Affogato</span><span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+        </div>
+    </div>
+</body>
+</html>
+
